@@ -1,0 +1,19 @@
+# Qt Creator user settings
+*.pro.user
+*.pro.user.*
+
+# Build artifacts
+*.o
+*.obj
+Debug/
+Release/
+debug/
+release/
+build/
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+*.exe
+*.dll
+*.pdb
