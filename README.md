@@ -7,13 +7,24 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT"></a>
 </p>
 
-## 📖 项目介绍
+> 一个基于 Qt 框架开发的串口调试助手工具，用于实现计算机与串口设备之间的通信测试和数据交互。
+
+## English TL;DR
+
+A **serial-port debugging assistant** built with Qt 5.15 Widgets (C++17) — course-project toolkit for PC ↔ device communication testing.
+
+- 🔌 Auto-detects available ports; configurable baud rate; string & HEX send/receive modes
+- 📊 Live TX/RX byte counters, port status indicator, buffer clearing
+- 🧰 Built on the QtSerialPort module; typical uses: dev-board debugging, IoT configuration, industrial maintenance
+- 🇨🇳 Docs are in Chinese.
+
+## 项目介绍
 一个基于Qt框架开发的串口调试助手工具，用于实现计算机与串口设备之间的通信测试和数据交互。
 
-## 🎯 项目背景
+## 项目背景
 在嵌入式开发、物联网设备调试、工业控制等场景中，经常需要与串口设备进行通信测试。传统的串口调试工具要么功能单一，要么操作复杂，给开发人员带来了不便。本项目旨在提供一个界面友好、功能完备的串口调试助手，帮助用户快速进行串口通信测试，提高开发调试效率。
 
-## 🛠️ 技术栈
+## 技术栈
 
 ### 开发框架
 1. Qt 5.15.2
@@ -46,7 +57,7 @@
 5. 实时显示数据收发状态和字节数
 6. 关闭串口结束通信
 
-## ✨ 项目功能
+## 项目功能
 1. 自动检测并显示可用串口设备
 2. 支持配置串口参数（如波特率）
 3. 支持字符串和HEX两种数据发送格式
@@ -55,13 +66,13 @@
 6. 提供串口状态指示灯和消息提示
 7. 支持清空接收/发送缓冲区
 
-## 🎯 项目应用方向
+## 项目应用方向
 1. 嵌入式设备开发调试：与开发板进行串口通信测试
 2. 物联网设备配置：通过串口配置和调试IoT设备
 3. 工业设备维护：与工业设备进行串口通信，读取状态或发送控制指令
 4. 学习串口通信原理：作为学习串口通信的实践工具
 
-## 🚀 使用说明
+## 使用说明
 
 ### 操作流程
 1. **启动程序**：运行编译生成的可执行文件，程序会自动检测并显示可用串口
@@ -83,14 +94,14 @@
   - 接收格式：点击"HEX显示"或"字符串显示"按钮切换
   - 发送格式：点击"HEX发送"或"字符串发送"按钮切换
 
-## ⚠️ 注意事项
+## 注意事项
 - 确保在操作串口前，目标串口设备已正确连接到计算机
 - 选择与目标设备匹配的波特率，否则可能导致通信失败
 - 使用HEX格式发送数据时，确保输入的是有效的十六进制数据
 - 不要在串口打开状态下拔插串口设备，以免造成设备损坏
 - 长时间运行时，注意接收缓冲区的大小，及时清空避免内存占用过高
 
-## 🐛 问题与解决方法
+## 问题与解决方法
 
 ### 问题1：无法检测到串口设备
 - **原因**：设备未正确连接或驱动未安装
