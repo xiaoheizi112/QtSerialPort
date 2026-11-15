@@ -1,5 +1,12 @@
 # Qt串口调试助手
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Qt-5.15.2--LTS-41CD52?logo=qt&logoColor=black" alt="Qt">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cpp&logoColor=white" alt="C++17">
+  <img src="https://img.shields.io/badge/Serial--Port-QtSerialPort-8A2BE2" alt="Serial Port">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT"></a>
+</p>
+
 ## 📖 项目介绍
 一个基于Qt框架开发的串口调试助手工具，用于实现计算机与串口设备之间的通信测试和数据交互。
 
